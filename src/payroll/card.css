@@ -1,0 +1,119 @@
+body {
+  background-color: aliceblue;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+h1 {
+  text-align: center;
+}
+.sec_para {
+  width: 100%;
+  display: flex;
+
+  align-items: center;
+}
+.sec_img {
+  width: 50%;
+  display: flex;
+
+  align-items: center;
+}
+.btn-group {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h2 {
+  color: grey;
+}
+.upper_card {
+  padding: 2%;
+  height: 90vh;
+  width: 60vw;
+  background-color: #f5f5f7;
+  border-radius: 0.7rem;
+}
+.sec_bodypart {
+  height: 50%;
+  width: 100%-5rem;
+  background-color: white;
+  border-radius: 0.3rem;
+  padding: 1rem;
+}
+.sec_bodypart_1Comp {
+  display: flex;
+}
+.third_bodypart {
+  display: flex;
+  width: 100%;
+}
+.input_salary {
+  padding: 10px;
+  width: 30%;
+  align-items: center;
+  background: #f2f4f6;
+  border: none;
+  height: 20px;
+  color: rgb(128, 127, 127);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-family: Inter, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+p {
+  color: rgb(128, 127, 127);
+}
+.select {
+  padding: 10px;
+  width: 30%;
+  align-items: center;
+  background: #f2f4f6;
+  border: none;
+  height: 40px;
+  color: rgb(128, 127, 127);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  font-family: Inter, sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+.calculate_salary {
+  height: 250px;
+  width: 55%;
+  background-color:aliceblue;
+  border-radius: 0.3rem;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  padding:10px;
+}
+.upper_border {
+  height: 25px;
+  background-color: #3e9bff;
+  width: 100%;
+  border-radius: 7px 7px 0px 0px;
+}
+.input_empName {
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  align-items: center;
+  background: hsl(0, 0%, 100%);
+  border: none;
+}
+.emp_detail {
+  height: 100%;
+  width: 40%;
+
+  background-color: aliceblue;
+}
+.date {
+  display: flex;
+  justify-content: space-around;
+}
